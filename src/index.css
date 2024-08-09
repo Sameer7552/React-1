@@ -1,0 +1,36 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles for dark mode */
+.bg-dark {
+  background-color: #121212;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/* Light mode styles (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+header,footer{
+  background-color: #000e33;
+}
+.my-spinner {
+  width: 50px;
+  height: 50px;
+  animation: spin 7s linear infinite;
+  margin: auto;
+  display: block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
