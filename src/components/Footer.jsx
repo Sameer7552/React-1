@@ -9,7 +9,7 @@ const Footer = () => (
           </div>
           <div className="col-6">
             <p>
-              Made by Sameer <i className="fas fa-heart" style={{ color: '#0077b6', textShadow: '0 0 10px #0077b6', marginLeft: '0.5rem' }}></i>
+              Made with<i className="fas fa-heart" style={{ color: '#0077b6', textShadow: '0 0 10px #0077b6', marginLeft: '0.5rem', marginRight: '0.5rem' }}></i>by Sameer
             </p>
           </div>
         </div>
